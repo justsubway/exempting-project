@@ -1,2 +1,50 @@
 # exempting-project
 This is the solution for my exempting python project that was assigned to me through university.  
+
+
+# Prompt for the project:Απαλλακτική Εργασία Εξεταστικής Σεπτεμβρίου 2025
+Εισαγωγή στην Επιστήμη Υπολογιστών με Python
+Έχει δημιουργηθεί μια ιστοσελίδα: https://tma111.netlify.app/.netlify/functions/generate
+Η σελίδα αυτή δέχεται έναν αριθμό μητρώου (Α.Μ.) ως παράμετρο στη διεύθυνση URL (π.χ.
+generate?id=Π12345) και επιστρέφει 50 αριθμούς στο διάστημα 0-1000, οι οποίοι είναι
+ντετερμινιστικοί (δηλαδή παραμένουν ίδιοι για τον ίδιο Α.Μ.).
+Οι αριθμοί εμφανίζονται σε διάφορες δυναμικές HTML διατάξεις (π.χ. πλέγμα, πίνακας,
+παράγραφοι, λίστες κ.λπ.), οι οποίες εξαρτώνται από τον προσωπικό σας Α.Μ.
+Αντικείμενο Εργασίας:
+1. Εξαγωγή Quote IDs (50% του βαθμού): Χρησιμοποιώντας τη βιβλιοθήκη
+BeautifulSoup (σε συνδυασμό με τη requests), εξάγετε τους αριθμούς από την
+HTML σελίδα που αντιστοιχεί στον προσωπικό σας Α.Μ. Οι αριθμοί αυτοί
+αντιπροσωπεύουν τα ID συγκεκριμένων ρητών/quotes. Αποθηκεύστε τους αριθμούς σε
+μια λίστα και εμφανίστε τους στον χρήστη. Ανάλογα με τη διάταξη της σελίδας, ενδέχεται
+να χρειαστείτε μεθόδους string ή json για την εξαγωγή των αριθμητικών τιμών. Η
+χρήση regular expressions δεν επιτρέπεται.
+2. Ανάκτηση Ρητών για Επιλεγμένα ID (50% του βαθμού): Χρησιμοποιήστε το API στον
+σύνδεσμο: https://dummyjson.com/quotes, ώστε να ανακτήσετε τα quotes που
+αντιστοιχούν στα ID που συλλέξατε στο πρώτο μέρος. Αποθηκεύστε τα αποτελέσματα σε
+ένα αρχείο quotes.json, ταξινομημένα κατά αύξον ID. Το αρχείο θα πρέπει να έχει
+μορφή όπως:
+[
+{
+"id": 15,
+"quote": "I Will Praise Any Man That Will Praise Me.",
+"author": "William Shakespeare"
+},
+{
+"id": 28,
+Criminal.",
+"author": "Albert Einstein"
+"quote": "Technological Progress Is Like An Axe In The Hands Of A Pathological
+},
+{
+"id": 29,
+"quote": "No One Would Choose A Friendless Existence On Condition Of Having All The Other
+Things In The World.",
+"author": "Aristotle"
+}
+]
+Παραδοτέα (σε ένα αρχείο .zip):
+●
+Ένα αρχείο Python που εκτελεί τα παραπάνω βήματα, χρησιμοποιώντας τον Α.Μ.
+σας ως είσοδο.
+●
+Το αρχείο quotes.json με τα ρητά που αντιστοιχούν στους αριθμούς που σα
