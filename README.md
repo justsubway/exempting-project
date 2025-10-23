@@ -1,7 +1,3 @@
-# exempting-project
-This is the solution for my exempting python project that was assigned to me through university.  
-
-
 # Prompt for the project:Απαλλακτική Εργασία Εξεταστικής Σεπτεμβρίου 2025
 Εισαγωγή στην Επιστήμη Υπολογιστών με Python
 Έχει δημιουργηθεί μια ιστοσελίδα: https://tma111.netlify.app/.netlify/functions/generate
